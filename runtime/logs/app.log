@@ -1,0 +1,132 @@
+2015-07-27 16:47:25 [192.168.1.2][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.2
+    in /var/www/html/basic/views/layouts/main.php:66
+    in /var/www/html/basic/controllers/SiteController.php:52
+2015-07-27 16:47:25 [192.168.1.2][-][-][info][application] $_SERVER = [
+    'HTTP_HOST' => '192.168.1.13'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 YaBrowser/15.6.2311.5029 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at 192.168.1.13 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => '192.168.1.13'
+    'SERVER_ADDR' => '192.168.1.13'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.2'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/basic/web/index.php'
+    'REMOTE_PORT' => '59617'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/basic/web/'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1438015645.334
+    'REQUEST_TIME' => 1438015645
+]
+2015-07-27 16:47:27 [192.168.1.2][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.2
+    in /var/www/html/basic/views/layouts/main.php:66
+    in /var/www/html/basic/controllers/SiteController.php:94
+2015-07-27 16:47:27 [192.168.1.2][-][-][info][application] $_GET = [
+    'r' => 'site/about'
+]
+
+$_COOKIE = [
+    '_csrf' => 'a00f9de2c3e2657556202622fb079ad45669cbb39cf45368edbdbf7fcce391e7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"9MwA4dyZ_Zpg90JL-nIsyJvNMupLX8Nb\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.1.13'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 YaBrowser/15.6.2311.5029 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.1.13/basic/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=a00f9de2c3e2657556202622fb079ad45669cbb39cf45368edbdbf7fcce391e7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%229MwA4dyZ_Zpg90JL-nIsyJvNMupLX8Nb%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at 192.168.1.13 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => '192.168.1.13'
+    'SERVER_ADDR' => '192.168.1.13'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.2'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/basic/web/index.php'
+    'REMOTE_PORT' => '59619'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fabout'
+    'REQUEST_URI' => '/basic/web/index.php?r=site%2Fabout'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1438015647.507
+    'REQUEST_TIME' => 1438015647
+]
+2015-07-27 16:47:33 [192.168.1.2][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.2
+    in /var/www/html/basic/views/layouts/main.php:66
+    in /var/www/html/basic/controllers/SiteController.php:88
+2015-07-27 16:47:33 [192.168.1.2][-][-][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    '_csrf' => 'a00f9de2c3e2657556202622fb079ad45669cbb39cf45368edbdbf7fcce391e7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"9MwA4dyZ_Zpg90JL-nIsyJvNMupLX8Nb\";}'
+    'PHPSESSID' => 'd8mfq98iof69elned5qah60gu1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'teqado'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.1.13'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 YaBrowser/15.6.2311.5029 Safari/537.36'
+    'HTTP_REFERER' => 'http://192.168.1.13/basic/web/index.php?r=site%2Fabout'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=a00f9de2c3e2657556202622fb079ad45669cbb39cf45368edbdbf7fcce391e7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%229MwA4dyZ_Zpg90JL-nIsyJvNMupLX8Nb%22%3B%7D; PHPSESSID=d8mfq98iof69elned5qah60gu1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at 192.168.1.13 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => '192.168.1.13'
+    'SERVER_ADDR' => '192.168.1.13'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.2'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/basic/web/index.php'
+    'REMOTE_PORT' => '59642'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/basic/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1438015653.257
+    'REQUEST_TIME' => 1438015653
+]
